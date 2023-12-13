@@ -1,0 +1,72 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	border:2px solid red;
+	margin-bottom: 20px;
+}
+
+input[type="text"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.filter {
+	margin-bottom: 20px;
+}
+
+label {
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+select {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.vehicles {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.vehicle {
+	width: 300px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.vehicle img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.vehicle h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.vehicle p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+body {
+  background-image: url("path/to/your/background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

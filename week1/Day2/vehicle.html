@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vehicle Showroom</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Vehicle Showroom</h1>
+		<input type="text" id="searchInput" onkeyup="search()" placeholder="Search...">
+		<div class="filter">
+			<label>Filter by:</label>
+			<select id="filterSelect" onchange="filter()">
+				<option value="all">All</option>
+				<option value="sedan">Sedan</option>
+				<option value="suv">SUV</option>
+				<option value="truck">Truck</option>
+			</select>
+		</div>
+		<div class="vehicles">
+			<div class="vehicle sedan">
+				<img src="sedan.jpeg">
+				<h2><a href="https://www.carwale.com/new/best-sedans/" target="_blank">Sedan</a></h2>
+				<p>A sedan is a passenger car in a three-box configuration with separate compartments for engine, passenger, and cargo.</p>
+			</div>
+			<div class="vehicle suv">
+				<img src="download1.jpeg">
+				<h2><a href="https://www.cardekho.com/best-suv" target="_blank">SUV</a></h2>
+				<p>A sport utility vehicle (SUV) is a vehicle classified as a light truck, but operated as a family vehicle.</p>
+			</div>
+			<div class="vehicle truck">
+				<img src="truck.jpeg">
+				<h2><a href="https://trucks.cardekho.com/" target="_blank">Truck</a></h2>
+				<p>A truck or lorry is a motor vehicle designed to transport cargo, carry specialized equipment, or perform other utilitarian work.</p>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
